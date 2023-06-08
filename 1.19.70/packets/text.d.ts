@@ -2,8 +2,8 @@ import {} from "../types";
 
 export type text = {
   needs_translation: boolean;
-  xuid: "string";
-  platform_chat_id: "string";
+  xuid: string;
+  platform_chat_id: string;
   message: string;
 } & (
   | {
